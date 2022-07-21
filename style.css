@@ -1,0 +1,267 @@
+body {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Block 1 Starts */
+
+.container-one {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.block {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.sub-block {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    padding-left: 50px;
+    color: white;
+}
+
+.sub-block h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-block p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.sub-block a {
+    margin-bottom: 10px;
+    background-color: brown;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* Block 1 Ends */
+
+
+/* Block 2 Starts */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.special {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.red {
+    background-color: #DD0000;
+    color: white;
+    margin-top: 0;
+}
+
+.top-blogs {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(205, 205, 205);
+    width: 300px;
+    border-radius: 10px;
+}
+
+.blog .thumbnail img {
+    width: 300px;
+    height: 198px;
+    margin-bottom: 10px;
+}
+
+.blog a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    color: black;
+}
+
+.blog-info {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.course-duration {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    margin-top: -20px;
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    padding-right: 50px;
+}
+
+.details i {
+    padding-right: 6px;
+}
+
+/* Block 2 Ends */
+
+
+/* Footer Starts */
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border: 0.2px solid rgb(136, 136, 136);
+    width: 80%;
+}
+
+.footer-option {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+footer i {
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+/* Footer Ends */
+
+
+
+.thumbnail-two {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blog-two {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 10px;
+}
+
+.schedule-two {
+    margin-top: -20px;
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+}
+
+.blog-info-two {
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.blog-two-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 10px;
+}
+
+.blogs-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+    margin-left: 60px;
+    height: 200px;
+}
+
+.top-blogs {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.top-blogs-two {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
