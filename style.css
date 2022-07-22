@@ -359,7 +359,7 @@ footer i {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-radius: 25px;
+        border-radius: 0px;
     }
 
     .sub-block {
