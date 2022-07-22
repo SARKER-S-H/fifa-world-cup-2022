@@ -9,8 +9,8 @@ body {
 /* Block 1 Starts */
 
 .container-one {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .block {
@@ -30,7 +30,7 @@ body {
 }
 
 .sub-block h1 {
-    font-size: 70px;
+    font-size: 400%;
     font-weight: 700;
     line-height: 70px;
     padding: 0;
@@ -38,13 +38,13 @@ body {
 }
 
 .sub-block p {
-    font-size: 20px;
+    font-size: 100%;
     font-weight: 200;
 }
 
 .sub-block a {
     margin-bottom: 10px;
-    background-color: brown;
+    background-color: #DD0000;
     width: 100px;
     text-align: center;
     border-radius: 7px;
@@ -183,8 +183,8 @@ footer {
 
 footer h3 {
     font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 hr {
@@ -195,6 +195,8 @@ hr {
 .footer-option {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 40px;
     margin-bottom: 30px;
 }
@@ -210,20 +212,36 @@ footer i {
 
 /* Footer Ends */
 
+/* Website One Ends */
 
+
+
+/* Website Two Starts */
+
+/* Block 3 Starts */
 
 .thumbnail-two {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+}
+
+.thumbnail-two p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .blog-two {
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(239, 239, 239);
+    border: 1px solid rgb(205, 205, 205);
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     border-radius: 10px;
+    width: 300px;
 }
 
 .schedule-two {
@@ -237,31 +255,208 @@ footer i {
     margin-top: -5px;
 }
 
-.blog-two-two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    border: 1px solid rgb(239, 239, 239);
-    border-radius: 10px;
-}
-
 .blogs-two {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
-    grid-column-gap: 40px;
-    margin-left: 60px;
-    height: 200px;
-}
-
-.top-blogs {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    grid-column-gap: 35px;
 }
 
 .top-blogs-two {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+}
+
+/* Block 3 Ends */
+
+/* Website Two Ends */
+
+
+/* Media Queries */
+
+/* Website 1 */
+
+/* Tablet Devices */
+
+@media only screen and (max-width: 992px) {
+    .sub-block h1 {
+        font-size: 250%;
+        font-weight: 700;
+        line-height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .sub-block p {
+        font-size: 70%;
+        font-weight: 200;
+    }
+
+    .sub-block a {
+        margin-bottom: 10px;
+        background-color: #DD0000;
+        width: 70px;
+        text-align: center;
+        border-radius: 7px;
+        text-decoration: none;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        grid-row-gap: 40px;
+        margin: 0;
+    }
+
+    .blog {
+        margin-top: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .special {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-items: center;
+        border-radius: 10px;
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0;
+    }
+
+    .white {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        width: 200px;
+        text-decoration: none;
+        border: 1px solid black;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .red {
+        background-color: #DD0000;
+        color: white;
+        margin: 0;
+        border: none;
+
+    }
+
+    .blogs-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 35px;
+    }
+}
+
+/* /mobile */
+@media only screen and (max-width: 668px) {
+    body {
+        margin: 0;
+    }
+
+    .container-one {
+        margin: 0;
+        width: 100%;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+    }
+
+    .sub-block {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 80%;
+    }
+
+    .sub-block h1 {
+        font-size: 200%;
+        font-weight: 700;
+        line-height: 40px;
+        padding-top: 40px;
+    }
+
+    .sub-block a {
+        margin-top: 10px;
+        font-size: 15px;
+        width: 120px;
+    }
+
+    .sub-block img {
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .special {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        height: 180px;
+        margin-top: 20px;
+        background-color: white;
+    }
+
+    .white {
+        margin-top: 20px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .footer-option {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .blogs-two {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-content: center;
+    }
 }
