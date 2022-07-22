@@ -56,6 +56,22 @@ body {
     padding-right: 5px;
     font-size: 200%;
     font-weight: 400;
+    animation: Click 5s infinite;
+}
+
+
+/* Animation */
+@keyframes Click {
+    from {
+        background-color: #DD0000;
+        color: white;
+    }
+
+    to {
+        background-color: darkgreen;
+        color: yellow;
+    }
+
 }
 
 
@@ -179,8 +195,9 @@ body {
 }
 
 /* Block 2 Ends */
-/* Block 4 Starts */
 
+
+/* Block 4 Starts */
 .hidden-button {
     display: none;
 }
@@ -200,6 +217,9 @@ body {
     font-size: 200%;
     font-weight: 400;
 }
+
+/* Block 4 Ends */
+
 
 /* Footer Starts */
 
@@ -460,11 +480,8 @@ footer i {
 /* Tablet Devices */
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
-    .container-one {}
 
-    .block {}
-
-    .sub-block {}
+    /* Website One Starts */
 
     .sub-block h1 {
         font-size: 250%;
@@ -614,4 +631,6 @@ footer i {
         padding-right: 20px;
         margin: 0;
     }
+
+    /* Website 2 Ends */
 }
